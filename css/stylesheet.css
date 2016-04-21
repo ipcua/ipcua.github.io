@@ -1,0 +1,39 @@
+/*
+  #fff2c9; -orange
+  #32759b; -blue
+  #14140c; -black
+  #f82a37; -red
+  #906523; -brown
+*/
+
+* {box-sizing: border-box;}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #14140c;
+}
+
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+  font-family: "Open Sans";
+}
+
+a {text-decoration: none; color: #906523;}
+a:hover {text-decoration: underline; }
+
+li.active a{color:#32759b;}
+li.active a:hover{text-decoration:none;}
+
+@media screen and (max-width: 35.5em){ .pure-u-0 { display:none;} }
+
+.header {
+  color:#fff2c9;
+  background-color:#32759b;
+}
+
+.pure-g {
+  max-width:1200px;
+  margin:0 auto;
+  text-align:center;
+}
+
