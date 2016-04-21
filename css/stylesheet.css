@@ -31,9 +31,24 @@ li.active a:hover{text-decoration:none;}
   background-color:#32759b;
 }
 
+.links{ list-style-type:none;padding-left:0;}
+.links li {padding:1em 0;}
+
 .pure-g {
   max-width:1200px;
   margin:0 auto;
   text-align:center;
 }
 
+.content {
+  max-width: 1000px;
+  margin:0 auto;
+}
+.content > .pure-g > div {
+  box-sizing: border-box;
+  padding: 1em 0;
+}
+
+.contact{
+  margin:2em 0;
+}
